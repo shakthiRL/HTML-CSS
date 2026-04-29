@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<div id="error-message" role="alert" class="hidden"></div>
+
+<button onclick="showAlert()">Submit Form</button>
+<script>
+    function showAlert() {
+  const alertBox = document.getElementById('error-message');
+  
+  alertBox.textContent = "Error: Please enter a valid email address.";
+  alertBox.classList.remove('hidden');
+}
+</script>
+
+</body>
+</html>
+
+

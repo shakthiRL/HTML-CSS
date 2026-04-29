@@ -1,0 +1,58 @@
+body {
+
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    margin: 0;
+
+}
+
+header {
+
+    background-color: brown;
+
+    color: white;
+
+    padding: 20px;
+
+}
+
+.content {
+
+    background: white;
+
+    margin: 20px;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+}
+
+img {
+
+    width: 250px;
+
+    border-radius: 15px;
+
+}
+
+h2 {
+
+    color: brown;
+
+}
+
+footer {
+
+    background-color: #3e2723;
+
+    color: white;
+
+    padding: 10px;
+
+}
+ 

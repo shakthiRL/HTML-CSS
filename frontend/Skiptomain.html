@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crochet</title>
+    <style>
+        .skip-link{
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: black;
+            color: white;
+            padding: 10px;
+            z-index: 100;
+        }
+        .skip-link:focus{
+            top:0;
+        }
+        .top{
+            display: flex;
+            background-color: aqua;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .navigation-header ul{
+            display: flex;
+            list-style: none;
+            padding: 10px;
+        }
+        .logo{
+            padding: 20px;
+            font-size: large;
+            font-weight: bold;
+        }
+        .navigation-header li{
+            align-items: center;
+            color: black ;
+            padding-right:50px;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">skip to main content</a>
+    <nav class="top">
+        <div class="logo">🎀 chrochet</div>
+        <div class="navigation-header">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Shopping</li>
+        </ul>
+        </div>
+    </nav>
+    <main id="main-conent">
+        <h1>WELCOME</h1>
+        <P>This is the main content of the page.</P>
+    </main>
+</body>
+</html>

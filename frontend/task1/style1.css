@@ -1,0 +1,160 @@
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:  #2c0543;
+    color: white;
+    box-sizing: border-box;
+}
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 14px;
+  text-decoration: none;
+  z-index: 1000;
+  border-radius: 4px;
+}
+ 
+.skip-link:focus {
+  top: 10px;
+}
+ 
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navDiv{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+.signin{
+    background:rgb(255, 171, 249);
+    border: 2px black;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    display:block;
+
+}
+.first{
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+.first h1{
+    font-size: 60px;
+    line-height: 1.1;
+    color: rgb(97, 255, 242);
+
+}
+.logo{
+    font-size: 30px;
+}
+
+.first p{
+    color: rgb(149, 251, 255);
+    margin: 20px 0; 
+}
+.sign{
+    background: rgb(253, 139, 242);
+    border: 2px black;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    display:block;
+}
+footer{
+    background-color: black;
+    color: wheat;
+    text-align:center;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+.imag{
+    width: 400px;
+    height: auto;
+}
+.top{
+    height: 20px;
+    background-color: rgb(114, 30, 69);
+
+}
+.im1{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 5px double white;
+}
+body{
+    font-family: Arial;
+    background-color:  #2c0543;
+    color: aliceblue;
+}
+.container{
+    width: 500px;
+    margin: 40px auto;
+    background: rgb(155, 0, 88);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+h2{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.in{
+    width: 75%;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    gap: 30px;
+}
+.input{
+    flex: 1;
+}
+.Gender, .Hobby{
+    display: flex;
+}
+button{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background: #ccc;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: #ffffff;
+}
+

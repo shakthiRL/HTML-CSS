@@ -1,0 +1,129 @@
+.backg {
+    background-image: url("C:\\Users\\2478641\\Desktop\\frontend\\task2\\image copy.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: rgb(86, 19, 19);
+    padding: 100px 50px;
+}
+.im1{
+    position: relative;
+    top: -90px;
+    width: 1100px;
+    margin: 0 auto;
+    display: block;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px double purple ;
+}
+.top{
+    height: 20px;
+    background:linear-gradient(to right,  rgb(238, 213, 255),rgb(171, 107, 191) );
+}
+
+.im2{
+    width: 250px;
+    height: auto;
+    margin-left: 150px;
+    border-radius: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.navDiv{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+.signin{
+    background:rgb(246, 143, 198);
+    border: none;
+    padding: 1% 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.hero{
+    float:right;
+    margin-right: 130px;
+}
+footer{
+    background : linear-gradient(to right, #c184f7, #f0aadc);
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+.sign{
+    background:rgb(246, 143, 198);
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    display:block;
+}
+body{
+    font-family: Arial;
+    color: rgb(255, 255, 255);
+}
+.container{
+    width: 500px;
+    margin: 40px auto;
+    background: rgb(0, 195, 209);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+h2{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.in{
+    width: 75%;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    gap: 30px;
+}
+.input{
+    flex: 1;
+}
+.Gender, .Hobby{
+    display: flex;
+}
+button{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background: #ccc;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: #e2b2fd;
+}
+.formbody{
+    background: linear-gradient(to right, rgb(196, 87, 220), rgb(252, 145, 236));
+}

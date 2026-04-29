@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+    background-color:  #2c0543;
+    color: aliceblue;
+}
+.container{
+    width: 500px;
+    margin: 40px auto;
+    background: rgb(155, 0, 88);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+h2{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.in{
+    width: 75%;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    gap: 30px;
+}
+.input{
+    flex: 1;
+}
+.Gender, .Hobby{
+    display: flex;
+}
+button{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background: #ccc;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: #2c0543;
+}
+

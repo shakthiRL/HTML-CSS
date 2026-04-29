@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden ;
+}
+
+body{
+    background: pink;
+
+}
+
+.container{
+    background: rgb(82, 226, 255);
+    width: 50px;
+    padding: 20%;
+    margin:50px auto;
+    border-radius:10% ;
+}
